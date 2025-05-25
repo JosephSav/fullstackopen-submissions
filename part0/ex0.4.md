@@ -4,9 +4,6 @@ sequenceDiagram
     participant server
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
-    activate server
-    browser-->>server: HTML element
-    deactivate server
 
     Note right of browser: browser sends the new note to server
 
