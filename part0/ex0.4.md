@@ -8,7 +8,7 @@ sequenceDiagram
     browser-->>server: HTML element
     deactivate server
 
-    Note: browser sends the new note to server
+    Note right of browser: browser sends the new note to server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
